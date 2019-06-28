@@ -13,5 +13,13 @@ class FizzBuzzTest {
 		// 実行 & 検証
 		assertEquals("1", fizzBuzz.stringfy(1));
 	}
+	
+	@Test
+	void _2を渡すと文字列2に変換する() {
+		// 準備
+		FizzBuzz fizzBuzz = new FizzBuzz();
+		// 実行 & 検証
+		assertEquals("2", fizzBuzz.stringfy(2));
+	}
 
 }
