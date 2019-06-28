@@ -45,6 +45,14 @@ class FizzBuzzTest {
 				assertEquals("Buzz", fizzBuzz.stringfy(5));
 			}
 		}
+		@Nested
+		class _3と5両方の倍数の時は数の代わりにFizzBuzzに変換する {
+			@Test
+			void _15を渡すと文字列FizzBuzzに変換する() {
+				// 実行 & 検証
+				assertEquals("FizzBuzz", fizzBuzz.stringfy(15));
+			}
+		}
 	}
 
 }
