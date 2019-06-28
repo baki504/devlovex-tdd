@@ -2,10 +2,10 @@ package devlove;
 
 public class FizzBuzz {
 
-	public String stringfy(int i) {
-		if (i == 3)
+	public String stringfy(int num) {
+		if (num % 3 == 0)
 			return "Fizz";
-		return String.valueOf(i);
+		return String.valueOf(num);
 	}
 
 }
