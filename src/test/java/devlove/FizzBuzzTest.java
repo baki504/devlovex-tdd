@@ -32,4 +32,10 @@ class FizzBuzzTest {
 		assertEquals("Fizz", fizzBuzz.stringfy(3));
 	}
 
+	@Test
+	void _5を渡すと文字列Buzzに変換する() {
+		// 実行 & 検証
+		assertEquals("Buzz", fizzBuzz.stringfy(5));
+	}
+
 }
